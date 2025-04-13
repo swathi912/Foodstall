@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Food Stall Event</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Link CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <header>
+    <h1>Food Fiesta 2025</h1>
+    <p>Welcome to the ultimate food stall experience!</p>
+  </header>
+
+  <nav>
+    <a href="#stalls">Food Stalls</a>
+    <a href="#register">Register</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="stalls">
+    <h2>Featured Food Stalls</h2>
+    <p class="stall-count">8 out of 12 stalls are booked – only 4 left!</p>
+
+    <div class="stalls">
+      <div class="stall">
+        <i class="fas fa-pepper-hot fa-2x"></i>
+        <h3>Spicy Bites</h3>
+        <p>Hot & Spicy Indian Snacks,Biriyani & Indian Fired Rice</p>
+      </div>
+      <div class="stall">
+        <i class="fas fa-ice-cream fa-2x"></i>
+        <h3>Sweet Treats</h3>
+        <p>Cakes, Pastries & Ice Cream,Faloodas & Smoothies</p>
+      </div>
+      <div class="stall">
+        <i class="fas fa-apple-alt fa-2x"></i>
+        <h3>Health Hub</h3>
+        <p>Fresh Juices & Salads,Buffalo Taco & Reuben</p>
+      </div>
+      <div class="stall">
+        <i class="fas fa-drumstick-bite fa-2x"></i>
+        <h3>BBQ Nation</h3>
+        <p>Grilled Goodness</p>
+      </div>
+      <div class="stall">
+        <i class="fas fa-fish fa-2x"></i>
+        <h3>Seafood Shack</h3>
+        <p>Fresh Fish & Coastal Dishes ,Soup & Gravies</p>
+      </div>
+      <div class="stall">
+        <i class="fas fa-pizza-slice fa-2x"></i>
+        <h3>Pizza Planet</h3>
+        <p>Wood-Fired Pizzas & Garlic Bread,veg pizza & margarite </p>
+      </div>
+      <div class="stall">
+        <i class="fas fa-mug-hot fa-2x"></i>
+        <h3>Chai Corner</h3>
+        <p>Hot Beverages & Street Style Snacks</p>
+      </div>
+      <div class="stall">
+        <i class="fas fa-cookie-bite fa-2x"></i>
+        <h3>Cookie Crumbs</h3>
+        <p>Cookies, Brownies & Baked Love,Savory & Sweetness Of Jaggery</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="register">
+    <h2>Register Your Stall</h2>
+    <form id="stallForm">
+      <input type="text" placeholder="Stall Name" required>
+      <input type="text" placeholder="Owner Name" required>
+      <input type="email" placeholder="Email Address" required>
+      <input type="text" placeholder="Stall Location (e.g., Hall A, Booth 3)" required>
+      <select required>
+        <option value="">Select Category</option>
+        <option value="snacks">Snacks</option>
+        <option value="sweets">Sweets</option>
+        <option value="drinks">Drinks</option>
+        <option value="bbq">BBQ</option>
+      </select>
+      <textarea placeholder="Special Items" rows="3"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Location: 21/Yathavel street,Chennai</p>
+    <p>Email: foodfest25@example.com</p>
+    <p>Phone: +91-9876543210</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Food Fiesta. All rights reserved.
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
